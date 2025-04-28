@@ -4,7 +4,7 @@ class Siege:
         self.efficiency = efficiency
 
     def get_trip_cost(self, distance, food_price):
-        return (self.distance / self.efficiency) * food_price
+        return (distance / self.efficiency) * food_price
 
     def get_cargo_volume(self):
         pass
