@@ -11,7 +11,7 @@ def main():
     for dragon in dragons:
         describe(dragon)
     for dragon in dragons:
-        breath_fire(dragon, 3, 3, dragons.pop(dragon))
+        breath_fire(dragon, 3, 3, dragons.pop(dragon)) # type: ignore
 
 
 # don't touch below this line
